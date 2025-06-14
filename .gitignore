@@ -1,4 +1,5 @@
 # Based on GitHub’s C++.gitignore, CMake.gitignore, macOS.gitignore
+.gitignore
 
 # Build folders
 /build/
