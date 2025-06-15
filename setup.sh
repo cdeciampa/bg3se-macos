@@ -16,4 +16,8 @@ cmake --preset bg3se-macos
 
 # Build the project
 echo "🚧 Building"
-cmake --build --preset bg3se-macos
+cmake --build --preset bg3se-macos --target clean
+
+# Set up Ghidra
+echo "Setting up Ghidra"
+cd SetupScripts && ./setup_ghidra.sh

@@ -3,6 +3,10 @@ brew "cmake"
 brew "ninja"
 brew "pkg-config"
 
+# Ghidra dependencies
+brew "openjdk@21"
+brew "gradle"
+
 # Dependencies
 brew "sdl2"
 brew "protobuf"
