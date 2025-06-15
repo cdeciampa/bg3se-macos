@@ -12,12 +12,12 @@ brew bundle --file=Brewfile
 
 # Create build directory and configure
 echo "📦 Bootstrapping project via CMake"
-cmake --preset bg3se-macos
+cmake --preset bg3se-macos-debug
 
 # Build the project
 echo "🚧 Building"
-cmake --build --preset bg3se-macos --target clean
+cmake --build --preset bg3se-macos-debug --target clean
 
 # Set up Ghidra
 echo "Setting up Ghidra"
-cd SetupScripts && ./setup_ghidra.sh
+./SetupScripts/setup_ghidra.sh
