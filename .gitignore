@@ -1,0 +1,29 @@
+# Build artifacts
+/build/
+/CMakeFiles/
+/cmake-build-*/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# IDE files
+*.user
+*.userprefs
+*.suo
+*.vcxproj*
+*.code-workspace
+
+# macOS files
+.DS_Store
+
+# Ninja build files
+.ninja*
+
+# Debugging
+*.ipynb*
+Debugging/
